@@ -56,6 +56,10 @@ body {
     margin-right: 15px;
 }
 
+.for_my_photo_media {
+    display: none;
+}
+
 .description-title, .description-text {
     font-family: 'Montserrat', sans-serif;
 }
@@ -419,4 +423,36 @@ footer {
         width: 100%;
     }
     
+    .choose-block {
+        flex-direction: column;
+    }
+
+    #portfolio-btn {
+        margin-bottom: 15px;
+    }
+
+    .choose-btn {
+        width: 75%;
+    }
+
 }
+
+@media (max-width: 420px) {
+    #my_photo {
+        display: none;
+    }
+    .for_my_photo_media {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    #my_photo {
+        display: none;
+    }
+    .for_my_photo_media {
+        display: none;
+    }
+}    
