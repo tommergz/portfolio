@@ -2,6 +2,45 @@ body {
     display: block;
 }
 
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../assets/fonts/TitilliumWeb-SemiBold.ttf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/Montserrat-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Turret Road';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/TurretRoad-Medium.ttf);
+  }
+
 .header-container {
     display: flex;
     justify-content: space-around;
@@ -17,12 +56,20 @@ body {
     margin-right: 15px;
 }
 
+.description-title, .description-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-title-container h1 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .header-title-container h2 {
     margin: 0 0 10px;
+}
+
+.header-title {
+    font-family: 'Titillium Web';
 }
 
 .contacts {
@@ -139,7 +186,11 @@ body {
     -o-box-shadow:0 1px 0 #777f83 inset, 0 2px 0 0 #154353, 0 5px 3px #999;
     box-shadow:0 1px 0 #777f83 inset, 0 2px 0 0 #154353, 0 5px 3px #999;
 }
- 
+
+.choose-btn span {
+    font-family: 'Turret Road';
+}
+
 #portfolio-lamp, #skills-lamp {
     height: 4px;
     width: 80%;
@@ -215,7 +266,8 @@ body {
     position: relative;
     border: 2px solid black;
     color: black;
-    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+    font-family: 'Turret Road';
     transition: .4s;
   }
 
@@ -291,6 +343,10 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.footer-text {
+    font-family: 'Titillium Web';
 }
 
 /* ==================================== MEDIA =================================== */
