@@ -211,7 +211,7 @@ body {
 }
 
 .commonpage-container {
-    margin: 0 auto;
+    margin: 0 auto 40px; 
 }
 
 .common-page {
